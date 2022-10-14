@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void run() {
                                 text.append(res + "\n");
+                                listilla.add(res);
                                 adapter.notifyDataSetChanged();
                             }
                         });
